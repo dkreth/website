@@ -1,0 +1,24 @@
+{
+  "name": "dkreth.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "homepage": "https://dkreth.github.io/website",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkreth/dkreth.github.io.git"
+  },
+  "author": "Dylan Kreth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkreth/dkreth.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
